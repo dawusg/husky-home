@@ -9,17 +9,17 @@ public class Main {
         a.push("e");
         a.push("f");
 
-        System.out.println(a);
+        System.out.println(b);
         String str = "f";
         int b = 0;
-        for (int i = 0; i < a.size(); i++) {
+        for (int i = 0; i < b.size(); i++) {
             if (a.peek().equalsIgnoreCase(str)){
                 break;
             }
-            a.pop();
+            b.pop();
             b++;
         }
         System.out.println(str);
-        System.out.println(b);
+        System.out.println(c);
     }
 }
